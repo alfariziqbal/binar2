@@ -1,0 +1,53 @@
+h1, 
+h3, 
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    border: 2px solid #f0f0f0;
+    width: 334px;
+    padding: 0px;
+    margin-left: 100px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 1.0463px 6.27781px 12.3891px rgb(0 0 0 / 15%);
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.branch-container {
+    display: flex;
+    width: 500 px;
+    gap: 25px;
+}
+.container img {
+    max-width: 100%;
+    border: 2px;
+    padding: 0px;
+}
+
+.container h1 {
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 24px;
+}
+
+.container h3 {
+    padding-bottom: 36px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 14px;
+    color: #818181;
+}
+
+.container-para {
+    font-size: 14px;
+    padding: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
